@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/status">
+    <ListPreference
+        app:defaultValue="@string/status"
+        app:entries="@array/status"
+        app:entryValues="@array/status_values"
+        app:key="reply"
+        app:title="@string/status"
+        app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/role">
+    <ListPreference
+        app:defaultValue="Role"
+        app:entries="@array/role_values"
+        app:entryValues="@array/role_values"
+        app:key="reply"
+        app:title="@string/role"
+        app:useSimpleSummaryProvider="true"/>
+    </PreferenceCategory>
+
+
+    <PreferenceCategory app:title="@string/SMTP">
+    <ListPreference
+        app:defaultValue="@string/SMTP"
+        app:entries="@array/smtp"
+        app:entryValues="@array/smtp"
+        app:key="reply"
+        app:title="@string/SMTP"
+        app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

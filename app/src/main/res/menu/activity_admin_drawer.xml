@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/manageLead"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="Manage Lead" />
+
+    <item
+        android:id="@+id/manageUsers"
+        android:icon="@drawable/ic_baseline_admin_panel_settings_24"
+        android:title="Manage Users" />
+
+    <item
+        android:id="@+id/manageTasks"
+        android:icon="@drawable/ic_baseline_add_task_24"
+        android:title="Manage Tasks" />
+
+    <item
+        android:id="@+id/manageMA"
+        android:icon="@drawable/ic_baseline_manage_accounts_24"
+        android:title="Manage Managers and Admins" />
+
+    <item
+        android:id="@+id/manageReportees"
+        android:icon="@drawable/ic_baseline_task_24"
+        android:title="Manage Reportees" />
+
+    <item
+        android:id="@+id/settingsFragment"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="Settings" />
+
+    <item
+        android:id="@+id/logOut"
+        android:icon="@android:drawable/ic_lock_power_off"
+        android:title="Logout" />
+
+</menu>

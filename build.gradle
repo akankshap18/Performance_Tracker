@@ -1,0 +1,11 @@
+buildscript {
+    repositories {
+    }
+    dependencies {
+        classpath 'com.google.gms:google-services:4.3.14'
+    }
+}// Top-level build file where you can editusers configuration options common to all sub-projects/modules.
+plugins {
+    id 'com.android.application' version '7.3.1' apply false
+    id 'com.android.library' version '7.3.1' apply false
+}

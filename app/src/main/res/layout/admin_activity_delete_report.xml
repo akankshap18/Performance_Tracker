@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg2"
+    tools:context="Admin.DeleteReport">
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView7"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="100dp"-->
+<!--        android:layout_marginStart="0dp"-->
+<!--        android:text="Delete Report"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textSize="24sp" />-->
+
+    <EditText
+        android:id="@+id/mReport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Project Name"
+        android:background="@color/white"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:minHeight="48dp"/>
+
+
+    <EditText
+        android:id="@+id/mDone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Done by"
+        android:background="@color/white"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:minHeight="48dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="50dp" >
+
+        <Button
+            android:id="@+id/mDelete"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@color/purple_700"
+            android:text="Delete" />
+
+    </LinearLayout>
+
+</LinearLayout>

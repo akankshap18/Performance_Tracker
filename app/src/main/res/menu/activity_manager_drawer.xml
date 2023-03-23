@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Profile" />
+
+    <item
+        android:id="@+id/taskList"
+        android:icon="@drawable/ic_baseline_admin_panel_settings_24"
+        android:title="Task List" />
+
+    <item
+        android:id="@+id/manageTasks"
+        android:icon="@drawable/ic_baseline_add_task_24"
+        android:title="Manage Tasks" />
+
+    <item
+        android:id="@+id/manageReportees"
+        android:icon="@drawable/ic_baseline_task_24"
+        android:title="Manage Reportees" />
+
+    <item
+        android:id="@+id/logOut"
+        android:icon="@android:drawable/ic_lock_power_off"
+        android:title="Logout" />
+</menu>

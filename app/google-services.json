@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "610014623419",
+    "firebase_url": "https://performance-tracker-eaf96-default-rtdb.firebaseio.com",
+    "project_id": "performance-tracker-eaf96",
+    "storage_bucket": "performance-tracker-eaf96.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:610014623419:android:dee1ea0ad4f08590d3db9e",
+        "android_client_info": {
+          "package_name": "com.example.performancetracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "610014623419-9p0qsth05cotji25mhi108d1gloag2pc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.performancetracker",
+            "certificate_hash": "bcf406de3d987d5b145e013484edc26c79cbaae6"
+          }
+        },
+        {
+          "client_id": "610014623419-5mnh7ajni3vhhbbvimeljrop6lvel87q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXQopS476W7TJrTFNWvX5mifSQtzZ9O1w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "610014623419-5mnh7ajni3vhhbbvimeljrop6lvel87q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

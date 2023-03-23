@@ -1,0 +1,99 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory app:title="@string/status">
+        <EditTextPreference
+            app:key="Status"
+            app:title="@string/status"
+            app:useSimpleSummaryProvider="true" />
+
+<!--        <ListPreference-->
+<!--            app:defaultValue="@string/status"-->
+<!--            app:entries="@array/status"-->
+<!--            app:entryValues="@array/status_values"-->
+<!--            app:key="reply"-->
+<!--            app:title="@string/status"-->
+<!--            app:useSimpleSummaryProvider="true" />-->
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/role">
+        <ListPreference
+            app:defaultValue="Role"
+            app:entries="@array/status"
+            app:entryValues="@array/role_values"
+            app:key="reply"
+            app:title="@string/role"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/SMTP">
+        <ListPreference
+            app:defaultValue="@string/SMTP"
+            app:entries="@array/status"
+            app:entryValues="@array/status_values"
+            app:key="reply"
+            app:title="@string/SMTP"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+    <!--    <PreferenceCategory app:title="@string/messages_header">-->
+
+    <!--        <EditTextPreference-->
+    <!--            app:key="signature"-->
+    <!--            app:title="@string/signature_title"-->
+    <!--            app:useSimpleSummaryProvider="true" />-->
+
+    <!--        <ListPreference-->
+    <!--            app:defaultValue="reply"-->
+    <!--            app:entries="@array/reply_entries"-->
+    <!--            app:entryValues="@array/reply_values"-->
+    <!--            app:key="reply"-->
+    <!--            app:title="@string/reply_title"-->
+    <!--            app:useSimpleSummaryProvider="true" />-->
+
+    <!--    </PreferenceCategory>-->
+
+    <!--    <PreferenceCategory app:title="@string/sync_header">-->
+
+    <!--        <SwitchPreferenceCompat-->
+    <!--            app:key="sync"-->
+    <!--            app:title="@string/sync_title" />-->
+
+    <!--        <SwitchPreferenceCompat-->
+    <!--            app:dependency="sync"-->
+    <!--            app:key="attachment"-->
+    <!--            app:summaryOff="@string/attachment_summary_off"-->
+    <!--            app:summaryOn="@string/attachment_summary_on"-->
+    <!--            app:title="@string/attachment_title" />-->
+
+    <!--    </PreferenceCategory>-->
+    <!--    <PreferenceCategory app:title="@string/messages_header">-->
+
+    <!--        <EditTextPreference-->
+    <!--            app:key="signature"-->
+    <!--            app:title="@string/signature_title"-->
+    <!--            app:useSimpleSummaryProvider="true" />-->
+
+    <!--        <ListPreference-->
+    <!--            app:defaultValue="reply"-->
+    <!--            app:entries="@array/reply_entries"-->
+    <!--            app:entryValues="@array/reply_values"-->
+    <!--            app:key="reply"-->
+    <!--            app:title="@string/reply_title"-->
+    <!--            app:useSimpleSummaryProvider="true" />-->
+
+    <!--    </PreferenceCategory>-->
+    <!--    <PreferenceCategory app:title="@string/sync_header">-->
+
+    <!--        <SwitchPreferenceCompat-->
+    <!--            app:key="sync"-->
+    <!--            app:title="@string/sync_title" />-->
+
+    <!--        <SwitchPreferenceCompat-->
+    <!--            app:dependency="sync"-->
+    <!--            app:key="attachment"-->
+    <!--            app:summaryOff="@string/attachment_summary_off"-->
+    <!--            app:summaryOn="@string/attachment_summary_on"-->
+    <!--            app:title="@string/attachment_title" />-->
+
+    <!--    </PreferenceCategory>-->
+
+</PreferenceScreen>
